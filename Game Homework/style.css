@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    float: left;
+    margin-right: 10px;
+    color:red;
+}
+a{
+    color:red;
+    text-decoration:none;
+}
+a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.flexBoxRow{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+h1{
+    color:red;
+    font-family: 'Creepster', cursive;
+    font-size: 80px;
+    margin: 10px;
+}
+p{
+    color:white;
+    margin: 10px;
+    width:700px;
+    font-family: 'Shizuru', cursive;
+}
+img{
+margin:10px;
+}
